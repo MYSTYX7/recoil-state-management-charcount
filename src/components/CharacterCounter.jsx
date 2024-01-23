@@ -1,9 +1,13 @@
+import Count from "./Count";
+import TextInput from "./TextInput";
+
 const CharacterCounter = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <div>
+      <TextInput />
+      <Count />
+    </div>
+  );
+};
 
 export default CharacterCounter;
